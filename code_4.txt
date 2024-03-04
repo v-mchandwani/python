@@ -1,0 +1,18 @@
+PRIME NUMBER OR NOT
+
+prime numbers are those numbers are get divided just by 1 and the number itself, means if the given input gets divided by a
+number in between range (2,number), then it is not prime
+
+num=15
+flag=0
+for i in range(2,num):
+ if(num%i==0):
+     flag=1
+     break
+if flag==1:
+    print("not prime")
+else:
+    print("prime")
+
+
+O/P - not prime
